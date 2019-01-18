@@ -1,0 +1,58 @@
+{
+  "/": {
+    "src/components/my-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/components/home.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+      "type": "script",
+      "weight": 1
+    }
+  },
+  "/home": {
+    "src/components/my-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/components/views/home-view.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+      "type": "script",
+      "weight": 1
+    }
+  },
+  "/about-us": {
+    "src/components/my-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/components/views/about-us-view2.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+      "type": "script",
+      "weight": 1
+    }
+  },
+  "/gallery": {
+    "src/components/my-app.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/components/views/gallery-view3.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+      "type": "script",
+      "weight": 1
+    }
+  }
+}
