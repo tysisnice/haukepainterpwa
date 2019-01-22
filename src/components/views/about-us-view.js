@@ -26,55 +26,17 @@ class AboutUsView extends PageViewElement {
       <style>
       app-box {
         height: 400px; 
-        /* width: 100%; 
-        z-index: -1; 
-        display: flex; 
-        justify-content: center;
-        align-items: center; */ 
       } 
       app-box > div {
         height: 800px;
       }
       app-box > div > img {
-        /* /* width: auto;  */
         height: 500px; 
-        /* margin: -200px auto 0px auto;
-        position: relative; 
-        display: inline-block; 
-        left: 50%;
-        transform: translate(-50%); */ 
-      }
-
-      li {
-        /* font-weight: bold;
-        font-size: 20px; */
-      }
-      
-      h1 {
       }
 
       .app-box-foreground {
         height: 400px;
-        /* padding: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center; */
         background: rgba(250,250,250,0.6);
-        /* text-align: center;  */
-      }
-      .app-box-foreground > div > img {
-        /* -webkit-box-shadow: 0px 0px 230px 180px rgba(255,255,255,1);
-        -moz-box-shadow: 0px 0px 230px 180px rgba(255,255,255,1);
-        box-shadow: 0px 0px 230px 180px rgba(255,255,255,1);
-        border-radius: 4px;
-        margin: 20px 20px 0px 0px; */
-      }
-      .app-box-foreground-bottom-right {
-        /* height: 300px;
-        padding: 10px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end; */
       }
       .white-shadow {
         -webkit-box-shadow: 0px 0px 200px 150px rgba(255,255,255,1);

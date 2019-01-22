@@ -33,7 +33,6 @@ import '../contact-us-section.js';
 
 class GalleryView extends connect(store)(PageViewElement) {
   render() {
-    console.log(this.entries)
     return html`
       ${SharedStyles}
       ${ImageGridStyle}
@@ -119,12 +118,12 @@ class GalleryView extends connect(store)(PageViewElement) {
     }
   }
 
-  constructor() {
-    super();
-    this._overlayOpen = false;
-    this.entries = [];
-    this._openEntry = {};
-  }
+  // constructor() {
+  //   super();
+  //   this._overlayOpen = false;
+  //   this.entries = [];
+  //   this._openEntry = {};
+  // }
 
   openImage(entry) {
     console.log(entry)
