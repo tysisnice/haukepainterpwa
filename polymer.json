@@ -2,7 +2,8 @@
   "entrypoint": "index.html",
   "shell": "src/components/my-app.js",
   "sources": [
-    "images/**/*"
+    "images/**/*",
+    "media/**/**/*"
   ],
   "extraDependencies": [
     "manifest.json",
@@ -51,7 +52,7 @@
       "name": "es5-bundled",
       "js": {
         "compile": "es5",
-        "minify": true,
+        "minify": false,
         "transformModulesToAmd": true
       },
       "css": {

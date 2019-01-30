@@ -7,7 +7,7 @@
  * Last Update: TODO: add date
 */
 
-import { LitElement, html } from '@polymer/lit-element';
+import { html } from '@polymer/lit-element';
 
 export const ImageGridStyle = html`
 <style> 
