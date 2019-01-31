@@ -70,9 +70,9 @@ class FabLong extends LitElement {
     }
   }
 
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
 
   // firstUpdated() {
   // }

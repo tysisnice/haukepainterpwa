@@ -118,12 +118,12 @@ class GalleryView extends connect(store)(PageViewElement) {
     }
   }
 
-  // constructor() {
-  //   super();
-  //   this._overlayOpen = false;
-  //   this.entries = [];
-  //   this._openEntry = {};
-  // }
+  constructor() {
+    super();
+    this._overlayOpen = false;
+    this.entries = [];
+    this._openEntry = {};
+  }
 
   openImage(entry) {
     console.log(entry)
