@@ -52,7 +52,7 @@
       "name": "es5-bundled",
       "js": {
         "compile": "es5",
-        "minify": false,
+        "minify": true,
         "transformModulesToAmd": true
       },
       "css": {
