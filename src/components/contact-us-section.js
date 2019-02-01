@@ -43,7 +43,7 @@ class ContactUsSection extends LitElement {
         position: relative;
         left: 40%;
         transform: translate(-40%);
-        height: 570px;
+        height: 600px;
         margin-top: 0px;
       }
 
@@ -60,11 +60,12 @@ class ContactUsSection extends LitElement {
       }
       .app-box-foreground > div {
         background: rgba(255,255,255,1);
-        width: 400px;
-        border-radius: 20px;
-        -webkit-box-shadow: 0px 0px 110px 80px rgba(255,255,255,1);
-        -moz-box-shadow: 0px 0px 110px 80px rgba(255,255,255,1);
-        box-shadow: 0px 0px 110px 80px rgba(255,255,255,1);
+        width: 410px;
+        padding: 5px;
+        border-radius: 50px;
+        -webkit-box-shadow: 0px 0px 50px 40px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 50px 40px rgba(255,255,255,1);
+        box-shadow: 0px 0px 50px 40px rgba(255,255,255,1);
       }
 
     </style>

@@ -112,7 +112,7 @@ export const ImageGridStyle = html`
   background: rgba(0,0,0,0);
   opacity: 0;
   visibility: hidden;
-  transition: 0.4s;
+  transition: 0.24s;
   display: flex;
   justify-content: center;
   align-items: center;
