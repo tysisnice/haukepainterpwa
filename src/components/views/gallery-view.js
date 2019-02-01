@@ -52,9 +52,9 @@ class GalleryView extends connect(store)(PageViewElement) {
         background: rgba(250,250,250,0.6);
       }
       .white-shadow {
-        -webkit-box-shadow: 0px 0px 200px 150px rgba(255,255,255,1);
-        -moz-box-shadow: 0px 0px 200px 150px rgba(255,255,255,1);
-        box-shadow: 0px 0px 200px 150px rgba(255,255,255,1);
+        -webkit-box-shadow: 0px 0px 150px 100px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 150px 100px rgba(255,255,255,1);
+        box-shadow: 0px 0px 150px 100px rgba(255,255,255,1);
         background: rgba(255,255,255,1);
         border-radius: 6px;
       }
@@ -68,6 +68,10 @@ class GalleryView extends connect(store)(PageViewElement) {
         max-height: 90%;
         border-radius: 7px;
       }
+      p.explainer {
+        padding: 10px 10px 20px 10px;
+        font-size: 20px;
+      }
       </style>
 
       <app-box effects="parallax-background">
@@ -78,7 +82,7 @@ class GalleryView extends connect(store)(PageViewElement) {
           <h1 class="white-shadow title-heading">Gallery</h1>
         </div>
       </app-box>
-      <section>
+      <section style="padding-top: 30px;" >
         <h2>Our Work Projects</h2>
         <p>Check out some of houses and buildings that we've painted. We're adding more and more pictures as time goes on. Scroll through and have a look at what we've uploaded so far.</p>
       </section>
@@ -98,7 +102,7 @@ class GalleryView extends connect(store)(PageViewElement) {
         </div>
       </div>
       <section style="background: white;">
-        <p style="padding: 0px 10px 20px 10px;">Thanks for having a look! We pride ourselves on our work, and on helping people brighten up their homes and workspaces. <a href="about-us">Click here to learn more about us</a>, or get in touch with us right away and book us in!</p>
+        <p class="explainer">Thanks for having a look! We pride ourselves on our work, and on helping people brighten up their homes and workspaces. <a href="about-us">Click here to learn more about us</a>, or get in touch with us right away and book us in!</p>
       </section>    
       
       <div class="shade" ?active="${this._overlayOpen}" @click="${this.closeOverlay}">

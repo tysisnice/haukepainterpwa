@@ -44,7 +44,7 @@ class ContactUsSection extends LitElement {
         left: 40%;
         transform: translate(-40%);
         height: 570px;
-        margin-top: ${this.margin};
+        margin-top: 0px;
       }
 
       .app-box-foreground {
@@ -60,14 +60,16 @@ class ContactUsSection extends LitElement {
       }
       .app-box-foreground > div {
         background: rgba(255,255,255,1);
-        width: 500px;
-        border-radius: 10px;
-        padding: 5px 5px 10px 5px;
+        width: 400px;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 110px 80px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 110px 80px rgba(255,255,255,1);
+        box-shadow: 0px 0px 110px 80px rgba(255,255,255,1);
       }
 
     </style>
     
-    <app-box effects="parallax-background">
+    <app-box >
       <div slot="background" class="background">
         <img src="media/images/pics/bedroom.jpg">
       </div>

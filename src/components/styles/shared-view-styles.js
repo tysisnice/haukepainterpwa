@@ -24,7 +24,7 @@ export const SharedStyles = html`
   }
 
   section {
-    padding: 24px;
+    padding: 50px 24px 50px 24px;
     background: var(--app-section-odd-color);
     display: flex;
     flex-direction: column;
@@ -120,9 +120,9 @@ export const SharedStyles = html`
     text-align: center;
   }
   .app-box-foreground > div > img {
-    -webkit-box-shadow: 0px 0px 230px 180px rgba(255,255,255,1);
-    -moz-box-shadow: 0px 0px 230px 180px rgba(255,255,255,1);
-    box-shadow: 0px 0px 230px 180px rgba(255,255,255,1);
+    -webkit-box-shadow: 0px 0px 200px 150px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 200px 150px rgba(255,255,255,1);
+    box-shadow: 0px 0px 200px 150px rgba(255,255,255,1);
     border-radius: 4px;
     margin: 20px 20px 0px 0px;
   }

@@ -91,6 +91,8 @@ export const MyAppStyles = html`
       text-decoration: none;
       line-height: 30px;
       padding: 4px 24px;
+      font-size: 20px;
+      padding-top: 5px;
     }
 
     .toolbar-list > a[selected] {

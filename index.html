@@ -114,10 +114,53 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       p {
         font-size: 18px;
       }
+
+      .shell {
+        display: flex;
+        left: 0;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .shell > h1 {
+        font-family: 'SerifaStd Black';
+        font-size: 34px;
+        color: rgb(38, 0, 105);
+        margin-top: 16px;
+      }
+      .shell > img {
+        max-width: 330px;
+        margin-top: 150px;
+      }
+      .shell > h2 {
+        font-size: 30px;
+      }
+
+      .loader {
+        margin-top: 30px;
+        border: 10px solid #eee;
+        border-top: 10px solid rgb(38, 0, 105);
+        border-radius: 60%;
+        width: 30px;
+        height: 30px;
+        animation: spin 0.6s linear infinite;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
     </style>
   </head>
   <body>
-    <my-app appTitle="Hauke Painters"></my-app>
+    <my-app appTitle="Hauke Painters">
+      <div class="shell">
+        <img src="media/images/pics/logobig.jpg">
+        <h2>Painters in Gisborne</h2>
+        <div class="loader"></div>
+      </div>
+    </my-app>
     <noscript>
       Please enable JavaScript to view this website.
     </noscript>
