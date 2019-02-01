@@ -31,11 +31,11 @@ class Home extends PageViewElement {
 
       <app-box effects="parallax-background">
         <div slot="background">
-          <img src="media/images/pics/2_brushes1.jpg">
+          <img src="media/images/pics/2_brushes1.jpg" alt="splash">
         </div>
         <div class="app-box-foreground">
           <div style="text-align: center;">
-            <img src="media/images/pics/logobig.jpg" alt="splash" width="330px;">
+            <img src="media/images/pics/logobig.jpg" alt="big logo" width="330px;">
             <h1>Painters in Gisborne</h1>
           </div>
         </div>
