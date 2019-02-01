@@ -39,8 +39,8 @@ class AboutUsView extends PageViewElement {
         background: rgba(250,250,250,0.6);
       }
       .white-shadow {
-        -webkit-box-shadow: 0px 0px 150px 100px rgba(255,255,255,1);
-        -moz-box-shadow: 0px 0px 10px 100px rgba(255,255,255,1);
+        -webkit-box-shadow: 0px 0px 110px 100px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 150px 100px rgba(255,255,255,1);
         box-shadow: 0px 0px 150px 100px rgba(255,255,255,1);
         background: rgba(255,255,255,1);
         border-radius: 6px;
