@@ -35,7 +35,7 @@ class Home extends PageViewElement {
         </div>
         <div class="app-box-foreground">
           <div style="text-align: center;">
-            <img src="media/images/pics/logobig.jpg" alt="big logo" width="330px;">
+            <img src="media/images/pics/logobig.jpg" alt="SS and SL Hauke" width="330px;">
             <h1>Painters in Gisborne</h1>
           </div>
         </div>
