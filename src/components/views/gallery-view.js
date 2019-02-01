@@ -76,7 +76,7 @@ class GalleryView extends connect(store)(PageViewElement) {
 
       <app-box effects="parallax-background">
         <div slot="background">
-          <img src="media/images/pics/shamrock.jpg">
+          <img src="media/images/pics/shamrock.jpg" alt="gallery image">
         </div>
         <div class="app-box-foreground">
           <h1 class="white-shadow title-heading">Gallery</h1>

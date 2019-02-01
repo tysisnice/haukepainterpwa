@@ -54,7 +54,7 @@ class AboutUsView extends PageViewElement {
 
       <app-box effects="parallax-background">
         <div slot="background">
-          <img src="media/images/pics/ourhousereal.jpg">
+          <img src="media/images/pics/ourhousereal.jpg" alt="house">
         </div>
         <div class="app-box-foreground">
           <h1 class="white-shadow title-heading">About Us</h1>
@@ -67,7 +67,7 @@ class AboutUsView extends PageViewElement {
         <p>Having worked on scores of projects including the Shamrock hotel, old Bendigonian heritage buildings, and of course peoples personal homes, Stace and Sherry have continually strived in building their business, <strong>working hard</strong> brightening peoples days and having fun at the same time!</p>
       
         <div class="content-image">
-          <img src="media/images/pics/staceyoyo.jpg">
+          <img src="media/images/pics/staceyoyo.jpg" alt="Stacey">
           Stacey Hauke, owner and operator
         </div>
       </section>

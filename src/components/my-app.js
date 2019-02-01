@@ -50,7 +50,7 @@ class MyApp extends connect(store)(LitElement) {
     <app-header condenses reveals effects="waterfall">
       <app-toolbar class="toolbar-top">
         <div>
-          <img src="media/images/pics/paintbrush.jpg" class="logo-pic"/>
+          <img src="media/images/pics/paintbrush.jpg" alt="logo" class="logo-pic"/>
           <div main-title>${this.appTitle}</div>
         </div>
         <button class="menu-btn" title="Menu" @click="${this._menuButtonClicked}">${menuIcon}</button>

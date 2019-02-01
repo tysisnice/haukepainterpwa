@@ -72,7 +72,7 @@ class ContactUsSection extends LitElement {
     
     <app-box >
       <div slot="background" class="background">
-        <img src="media/images/pics/bedroom.jpg">
+        <img src="media/images/pics/bedroom.jpg" alt="Contact us image">
       </div>
       <div class="app-box-foreground" style="z-index: 2000;">
         <div style="text-align: center;">
