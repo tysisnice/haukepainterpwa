@@ -8,6 +8,10 @@
   to = "http://haukepainters.com/:splat 301!"
 
 [[redirects]]
+  from = "/robots.txt" 
+  to = "/robots.txt"
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
