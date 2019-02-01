@@ -1,3 +1,12 @@
+# redirects
+[[redirects]]
+  from = "http://haukepainter.com/*" 
+  to = "http://haukepainters.com/:splat 301!"
+
+[[redirects]]
+  from = "http://haukepainter.com/*" 
+  to = "http://haukepainters.com/:splat 301!"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
