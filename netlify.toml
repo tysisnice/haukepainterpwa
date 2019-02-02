@@ -12,6 +12,10 @@
   to = "/robots.txt"
 
 [[redirects]]
+  from = "/offline.html" 
+  to = "/offline.html"
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
