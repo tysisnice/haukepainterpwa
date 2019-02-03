@@ -47,7 +47,22 @@ const loadPage = (page) => (dispatch) => {
   }
 
   dispatch(updatePage(page));
-  document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
+  var supports = false;
+  try {
+    var div = document.createElement('div');
+    div.scrollTo({
+      top: 0,
+      get behavior () {
+        supports = true;
+        return 'smooth';
+      }
+    });
+  } catch (err) {}
+  if (supports) {
+    document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
+  } else {
+    document.documentElement.scrollTo(0, 0);
+  }
 };
 
 const updatePage = (page) => {

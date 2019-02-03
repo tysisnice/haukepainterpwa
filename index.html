@@ -79,6 +79,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         window.addEventListener('beforeinstallprompt', function(evt) {
           promptEvent = evt;
           evt.preventDefault();
+          console.log('done yay');
         });
         window.addEventListener('scroll', function() {
           if (!done && document.documentElement.scrollTop > 1000) {
