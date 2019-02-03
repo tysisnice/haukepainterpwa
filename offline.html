@@ -70,22 +70,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       // Load and register pre-caching Service Worker
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
-          navigator.serviceWorker.register('service-worker.js', {
-            scope: '/',
-          });
+          navigator.serviceWorker.register('service-worker.js');
         });
-        let promptEvent;
-        let done;
-        window.addEventListener('beforeinstallprompt', function(evt) {
-          promptEvent = evt;
-          evt.preventDefault();
-        });
-        window.addEventListener('scroll', function() {
-          if (!done && document.documentElement.scrollTop > 1000) {
-            promptEvent.prompt();
-            done = true;
-          }
-        });
+        // let promptEvent;
+        // let done;
+        // window.addEventListener('beforeinstallprompt', function(evt) {
+        //   promptEvent = evt;
+        //   evt.preventDefault();
+        // });
+        // window.addEventListener('scroll', function() {
+        //   if (!done && document.documentElement.scrollTop > 1000) {
+        //     promptEvent.prompt();
+        //     done = true;
+        //   }
+        // });
       }
 
       // Redux assumes `process.env.NODE_ENV` exists in the ES module build.
