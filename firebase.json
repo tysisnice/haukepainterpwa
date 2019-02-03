@@ -1,0 +1,48 @@
+{
+  "hosting": {
+    "public": "build/es5-bundled/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "https://haukepainter.com/*",
+        "destination": "https://haukepainters.com/:splat"
+      },
+      {
+        "source": "/node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js",
+        "destination": "/node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"
+      },
+      {
+        "source": "/offline.html",
+        "destination": "/offline.html"
+      },
+      {
+        "source": "/robots.txt",
+        "destination": "/robots.txt"
+      },
+      {
+        "source": "**/!(*.*)",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png)",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "max-age=2892720"
+        }]
+      },
+      {
+        "source": "**/*.@(css|js|html)",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "max-age=604802"
+        }]
+      }
+    ]
+  }
+}

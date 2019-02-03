@@ -120,9 +120,9 @@ export const SharedStyles = html`
     text-align: center;
   }
   .app-box-foreground > div > img {
-    -webkit-box-shadow: 0px 0px 150px 150px rgba(255,255,255,1);
-    -moz-box-shadow: 0px 0px 200px 150px rgba(255,255,255,1);
-    box-shadow: 0px 0px 200px 150px rgba(255,255,255,1);
+    -webkit-box-shadow: 0px 0px 150px 175px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 200px 175px rgba(255,255,255,1);
+    box-shadow: 0px 0px 200px 175px rgba(255,255,255,1);
     border-radius: 4px;
     margin: 20px 20px 0px 0px;
   }

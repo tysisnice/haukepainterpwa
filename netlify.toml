@@ -1,7 +1,7 @@
 # redirects
 [[redirects]]
-  from = "http://haukepainter.com/*" 
-  to = "http://haukepainters.com/:splat 301!"
+  from = "https://haukepainter.com/*" 
+  to = "https://haukepainters.com/:splat 301!"
 
 [[redirects]]
   from = "http://haukepainter.com/*" 
@@ -14,6 +14,7 @@
 [[redirects]]
   from = "/offline.html" 
   to = "/offline.html"
+  status = 200
 
 [[redirects]]
   from = "/*"

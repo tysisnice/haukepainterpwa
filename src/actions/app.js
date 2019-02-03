@@ -61,7 +61,7 @@ const loadPage = (page) => (dispatch) => {
   if (supports) {
     document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
   } else {
-    document.documentElement.scrollTo(0, 0);
+    document.documentElement.scrollTo(-1100, 0);
   }
 };
 
