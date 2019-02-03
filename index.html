@@ -82,7 +82,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         });
         window.addEventListener('scroll', function() {
           if (!done && document.documentElement.scrollTop > 1000) {
-            promptEvent.prompt();
+            console.log(promptEvent)
+            promptEvent && promptEvent.prompt();
             done = true;
           }
         });

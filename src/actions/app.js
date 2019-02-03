@@ -13,7 +13,7 @@ export const UPDATE_OFFLINE = 'UPDATE_OFFLINE';
 export const UPDATE_DRAWER_STATE = 'UPDATE_DRAWER_STATE';
 export const OPEN_SNACKBAR = 'OPEN_SNACKBAR';
 export const CLOSE_SNACKBAR = 'CLOSE_SNACKBAR';
-export const CONTACT_INFO_IN_VIEW = '9˚ß∆∂˙çm'
+export const CONTACT_INFO_IN_VIEW = 'CONTACT_INFO_IN_VIEW'
 
 export const navigate = (path) => (dispatch) => {
   // Extract the page name from path.
@@ -47,7 +47,7 @@ const loadPage = (page) => (dispatch) => {
   }
 
   dispatch(updatePage(page));
-  document.documentElement.scrollTop = 0;
+  document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
 const updatePage = (page) => {
