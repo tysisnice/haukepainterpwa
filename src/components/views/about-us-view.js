@@ -80,7 +80,7 @@ class AboutUsView extends PageViewElement {
       
       <app-box effects="parallax-background" style="height: 200px;">
         <div slot="background" style="height: 500px; margin-top: -100px;">
-          <img src="media/images/pics/shamrock.jpg">
+          <img src="media/images/pics/shamrock.jpg" alt="shamrock hotel">
         </div>
         <div class="app-box-foreground" style="height: 200px;">
           <h1 class="white-shadow title-heading" style="font-size: 40px;">Professionally</h1>

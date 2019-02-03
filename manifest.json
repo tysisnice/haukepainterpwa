@@ -2,7 +2,7 @@
   "name": "Hauke Painters",
   "short_name": "SS SL Hauke",
   "description": "Hauke Painters business website. Detailing our high quality painting works in Gisborne and Sunbury",
-  "start_url": "https://haukepainters.com/index.html",
+  "start_url": ".",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",

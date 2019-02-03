@@ -47,22 +47,21 @@ const loadPage = (page) => (dispatch) => {
   }
 
   dispatch(updatePage(page));
-  var supports = false;
-  try {
-    var div = document.createElement('div');
-    div.scrollTo({
-      top: 0,
-      get behavior () {
-        supports = true;
-        return 'smooth';
-      }
-    });
-  } catch (err) {}
-  if (supports) {
-    document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
-  } else {
-    document.documentElement.scrollTo(-1100, 0);
-  }
+  // var supports = false;
+  // try {
+  //   var div = document.createElement('div');
+  //   div.scrollTo({
+  //     top: 0,
+  //     get behavior () {
+  //       supports = true;
+  //       return 'smooth';
+  //     }
+  //   });
+  // } catch (err) {}
+  // if (supports) {
+  //   document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
+  // } else {
+  document.documentElement.scrollTop = 0;
 };
 
 const updatePage = (page) => {

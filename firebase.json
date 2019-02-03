@@ -3,8 +3,7 @@
     "public": "build/es5-bundled/",
     "ignore": [
       "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+      "**/.*"
     ],
     "rewrites": [
       {
