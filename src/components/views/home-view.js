@@ -42,7 +42,7 @@ class Home extends PageViewElement {
       </app-box>
       <section>
         <h2>Need a Painter? We can help</h2>
-        <p>Need for a decent, honest painter without the crap? With over 30 years of professional experience and many happy clients, Hauke Painters might just be able to help you out! Whatever it is you need painted, we'll do it <strong>efficiently, at high quality, for a reasonable price!</strong></p>
+        <p>Need for a decent, honest painter without the stress? With over 30 years of professional experience and many happy clients, Hauke Painters might just be able to help you out! Whatever it is you need painted, we'll do it <strong>efficiently, at high quality, for a reasonable price!</strong></p>
       </section>
       
 

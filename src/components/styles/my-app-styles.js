@@ -128,8 +128,8 @@ export const MyAppStyles = html`
       display: block;
       text-decoration: none;
       color: var(--app-header-text-color);
-      font-size: 18px;  
-      line-height: 46px;
+      font-size: 24px;  
+      line-height: 54px;
       padding: 0 24px;
     }
 
